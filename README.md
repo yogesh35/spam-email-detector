@@ -18,24 +18,20 @@ A Python-based machine learning project to detect whether an email or SMS messag
 ## 📁 Project Structure
 
 spam_email_detector/
-│
 ├── data/
-│ └── spam.csv # Dataset (SMS Spam Collection)
-│
+│   └── spam.csv               # Dataset (SMS Spam Collection)
 ├── src/
-│ ├── preprocessing.py # Text cleaning and preprocessing functions
-│ ├── train_model.py # Script to train and save the ML model
-│ └── predict.py # Command-line spam prediction script
-│
+│   ├── preprocessing.py       # Text cleaning and preprocessing functions
+│   ├── train_model.py         # Script to train and save the ML model
+│   └── predict.py             # Command-line spam prediction script
 ├── models/
-│ ├── spam_model.pkl # Saved trained model
-│ └── vectorizer.pkl # Saved TF-IDF vectorizer
-│
+│   ├── spam_model.pkl         # Saved trained model
+│   └── vectorizer.pkl         # Saved TF-IDF vectorizer
 ├── app/
-│ └── app.py # Streamlit web application
-│
-├── requirements.txt # Python dependencies
-└── README.md # This file
+│   └── app.py                 # Streamlit web application
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
 
 
 ---
